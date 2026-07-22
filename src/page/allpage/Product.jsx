@@ -3,12 +3,17 @@ import {
   FaStar,
 } from "react-icons/fa";
 
-import jacket from "../../imgas/handbagl.jpg";
-import bag from "../../imgas/handbagl.jpg";
-import wallet from  "../../imgas/handbagl.jpg";
-import shoes from "../../imgas/handbagl.jpg";
-import belt from "../../imgas/handbagl.jpg";
+import jacket from "../../imgas/cot.jpg";
+import bag from "../../imgas/cot2.jpg";
+import wallet from  "../../imgas/many.jpg";
+import shoes from "../../imgas/many2.jpg";
+import belt from "../../imgas/belt.jpg";
 import gloves from "../../imgas/handbagl.jpg";
+import jama from "../../imgas/jama8.jpg";
+import ladisbag from "../../imgas/ladiesbag.jpg";
+import lady1 from "../../imgas/handbag3.jpg";
+import jama4 from "../../imgas/jama7.jpg";
+import jama2 from "../../imgas/jama6.jpg";
 
 const products = [
   {
@@ -45,6 +50,36 @@ const products = [
     id: 6,
     name: "Leather Gloves",
     image: gloves,
+    category: "Winter",
+  },
+  {
+    id: 7,
+    name: "Leather Gloves",
+    image: jama,
+    category: "Winter",
+  },
+  {
+    id: 8,
+    name: "Leather Gloves",
+    image: ladisbag,
+    category: "Winter",
+  },
+  {
+    id: 9,
+    name: "Leather Gloves",
+    image: lady1,
+    category: "Winter",
+  },
+  {
+    id: 10,
+    name: "Leather Gloves",
+    image: jama4,
+    category: "Winter",
+  },
+  {
+    id: 11,
+    name: "Leather Gloves",
+    image: jama2,
     category: "Winter",
   },
 ];

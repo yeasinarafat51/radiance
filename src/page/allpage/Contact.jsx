@@ -138,61 +138,34 @@ const Contact = () => {
           </div>
 
           {/* Form */}
-          <div className="lg:col-span-3 bg-white rounded-[35px] shadow-2xl p-10">
+          {/* Google Map */}
 
-            <h3 className="text-3xl font-bold text-gray-900 mb-8">
-              Send Your Inquiry
-            </h3>
+<div className="lg:col-span-3 bg-white rounded-[35px] shadow-2xl overflow-hidden">
 
-            <form className="space-y-6">
+    <div className="p-8">
 
-              <div className="grid md:grid-cols-2 gap-6">
+        <h3 className="text-3xl font-bold text-gray-900">
+            Find Our Location
+        </h3>
 
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  className="border border-gray-300 rounded-xl p-4 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none"
-                />
+        <p className="text-gray-500 mt-3">
+            Visit our manufacturing facility or contact our export office.
+        </p>
 
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="border border-gray-300 rounded-xl p-4 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none"
-                />
+    </div>
 
-              </div>
+    <iframe
+        title="Google Map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d587.6671024903488!2d90.3682858490274!3d23.7323711047347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf0035f269ff%3A0x5e65889775568c17!2sLeather%20Solid%20Waste%20Management%20Lab!5e1!3m2!1sen!2sbd!4v1784727275985!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+        width="100%"
+        height="520"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
 
-              <div className="grid md:grid-cols-2 gap-6">
-
-                <input
-                  type="text"
-                  placeholder="Phone Number"
-                  className="border border-gray-300 rounded-xl p-4 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none"
-                />
-
-                <input
-                  type="text"
-                  placeholder="Company Name"
-                  className="border border-gray-300 rounded-xl p-4 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none"
-                />
-
-              </div>
-
-              <textarea
-                rows="6"
-                placeholder="Tell us about your project..."
-                className="w-full border border-gray-300 rounded-xl p-4 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none"
-              ></textarea>
-
-              <button
-                className="bg-[#8B5E3C] hover:bg-[#6F4E37] transition duration-300 text-white px-10 py-4 rounded-xl font-semibold text-lg shadow-lg"
-              >
-                Send Inquiry →
-              </button>
-
-            </form>
-
-          </div>
+</div>
 
         </div>
       </div>
