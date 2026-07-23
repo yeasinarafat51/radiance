@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: "Tannery", path: "/tannery" },
     { name: "Manufacturing Unit", path: "/manufacturing-unit" },
     { name: "Products", path: "/product" },
-    { name: "Our Team", path: "/team" },
+    // { name: "Our Team", path: "/team" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="flex items-center justify-between h-48">
+        <div className="flex items-center justify-between h-24">
 
           {/* Logo */}
           <NavLink to="/" className="flex items-center gap-3">
@@ -29,7 +29,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Radiance"
-              className="w-full h-20  object-cover border-2 border-amber-600"
+              className="w-full h-16  object-cover  "
             />
 
             {/* <div>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "block text-amber-600 font-semibold"
-                    : "block text-gray-700 hover:text-amber-600"
+                    : "block text-gray-700 font-semibold hover:text-amber-600"
                 }
               >
                 {item.name}

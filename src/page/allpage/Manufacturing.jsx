@@ -46,7 +46,7 @@ const Manufacturing = () => {
             />
 
             <div className="absolute bottom-8 left-8 bg-[#8B5E3C] text-white px-8 py-6 rounded-2xl shadow-xl">
-              <h2 className="text-4xl font-bold">8+</h2>
+              <h2 className="text-4xl font-bold">10+</h2>
               <p>Years Manufacturing Experience</p>
             </div>
 
@@ -142,7 +142,7 @@ const Manufacturing = () => {
 
               <div>
                 <h2 className="text-4xl font-bold text-amber-600">
-                  30+
+                  15+
                 </h2>
                 <p className="text-gray-500 mt-2">
                   Export Countries
