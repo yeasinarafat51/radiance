@@ -119,11 +119,11 @@ const Tannery = () => {
 
           <div className="relative">
 
-            <img
-              src={tanneryImg}
-              alt="Tannery"
-              className="rounded-[30px] shadow-2xl h-[700px] w-full object-cover"
-            />
+           <img
+  src={tanneryImg}
+  alt="Tannery"
+  className="w-full h-[280px] sm:h-[400px] md:h-[550px] lg:h-[700px] rounded-[30px] shadow-2xl object-cover"
+/>
 
             {/* Floating Card */}
 
