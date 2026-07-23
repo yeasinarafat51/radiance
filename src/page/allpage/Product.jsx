@@ -24,9 +24,9 @@ const products = [
   },
   {
     id: 2,
-    name: "Leather Bag",
+    name: "Leather Coat",
     image: bag,
-    category: "Accessories",
+    category: "Outerwear",
   },
   {
     id: 3,
@@ -44,43 +44,43 @@ const products = [
     id: 5,
     name: "Leather Belt",
     image: belt,
-    category: "Fashion",
+    category: "Accessories",
   },
   {
     id: 6,
-    name: "Leather Gloves",
+    name: "Leather Handbag",
     image: gloves,
-    category: "Winter",
+    category: "Bags",
   },
   {
     id: 7,
-    name: "Leather Gloves",
+    name: "Leather Garments",
     image: jama,
-    category: "Winter",
+    category: "Garments",
   },
   {
     id: 8,
-    name: "Leather Gloves",
+    name: "Ladies Leather Bag",
     image: ladisbag,
-    category: "Winter",
+    category: "Women's Collection",
   },
   {
     id: 9,
-    name: "Leather Gloves",
+    name: "Premium Ladies Handbag",
     image: lady1,
-    category: "Winter",
+    category: "Women's Collection",
   },
   {
     id: 10,
-    name: "Leather Gloves",
+    name: "Leather Jacket",
     image: jama4,
-    category: "Winter",
+    category: "Outerwear",
   },
   {
     id: 11,
-    name: "Leather Gloves",
+    name: "Leather Fashion Wear",
     image: jama2,
-    category: "Winter",
+    category: "Garments",
   },
 ];
 
@@ -147,7 +147,7 @@ const Products = () => {
                   {item.name}
                 </h3>
 
-                <p className="text-gray-500 leading-7 mt-4">
+                {/* <p className="text-gray-500 leading-7 mt-4">
                   Crafted from premium genuine leather with exceptional
                   durability, elegance, and international quality standards.
                 </p>
@@ -155,7 +155,7 @@ const Products = () => {
                 <button className="mt-8 flex items-center gap-3 text-amber-700 font-semibold hover:gap-5 duration-300">
                   Explore Collection
                   <FaArrowRight />
-                </button>
+                </button> */}
 
               </div>
 

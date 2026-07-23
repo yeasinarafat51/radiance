@@ -79,7 +79,7 @@ const Contact = () => {
                   </h4>
 
                   <p className="text-gray-300 mt-2">
-                    +880 17XXXXXXXX
+                    +880 1811157441
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                   </h4>
 
                   <p className="text-gray-300 mt-2">
-                    export@company.com
+                    radianceleather@gmail.com
                   </p>
                 </div>
               </div>

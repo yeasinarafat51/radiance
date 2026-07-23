@@ -20,7 +20,7 @@ const About = () => {
             {/* Experience Card */}
             <div className="absolute bottom-8 -right-8 bg-[#8B5E3C] text-white p-8 rounded-3xl shadow-xl">
 
-              <h2 className="text-5xl font-bold">25+</h2>
+              <h2 className="text-5xl font-bold">10+</h2>
 
               <p className="mt-2 text-lg">
                 Years of

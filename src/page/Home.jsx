@@ -7,7 +7,7 @@ import Vision from "./Vision";
 
 const Home = () => {
     return (
-        <div className=" py-4">
+        <div className=" py-0">
            <Banner/>
            <Vision/>
            <Mission/>

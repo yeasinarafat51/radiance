@@ -1,8 +1,8 @@
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+// import {
+//   FaFacebookF,
+//   FaLinkedinIn,
+//   FaTwitter,
+// } from "react-icons/fa";
 
 import team1 from "../../imgas/lether3.jpg";
 import team2 from "../../imgas/lether3.jpg";
@@ -94,7 +94,7 @@ const Team = () => {
 
                 <div className="w-12 h-[2px] bg-amber-500 mx-auto my-5"></div>
 
-                <div className="flex justify-center gap-4">
+                {/* <div className="flex justify-center gap-4">
 
                   <a
                     href="#"
@@ -117,7 +117,7 @@ const Team = () => {
                     <FaTwitter />
                   </a>
 
-                </div>
+                </div> */}
 
               </div>
 

@@ -2,7 +2,7 @@ import vision from '../imgas/vison.jpg';
 
 const Vision = () => {
     return (
-       <div className="flex justify-center">
+       <div className="flex justify-center ">
   <img
     src={vision}
     alt="Vision"
