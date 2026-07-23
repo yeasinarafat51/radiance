@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Corevalues from "./Corevalues";
+import Interbuyer from "./Interbuyer";
 import Mission from "./Mission";
 import ProSer from "./ProSer";
 import Vision from "./Vision";
@@ -13,6 +14,7 @@ const Home = () => {
            <Mission/>
            <Corevalues/>
            <ProSer/>
+           <Interbuyer/>
         </div>
     );
 };

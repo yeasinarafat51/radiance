@@ -111,7 +111,7 @@ const Contact = () => {
                   </h4>
 
                   <p className="text-gray-300 mt-2">
-                    www.company.com
+                    www.radianceletherbd.vercel.app
                   </p>
                 </div>
               </div>
@@ -127,9 +127,9 @@ const Contact = () => {
                   </h4>
 
                   <p className="text-gray-300 mt-2">
-                    Monday - Saturday
+                    Everyday
                     <br />
-                    9:00 AM - 6:00 PM
+                    24 Hours
                   </p>
                 </div>
               </div>
