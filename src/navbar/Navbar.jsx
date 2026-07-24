@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../imgas/radiance.jpg";
+import logo from "../imgas/logo1.jpg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: "Tannery", path: "/tannery" },
     { name: "Manufacturing Unit", path: "/manufacturing-unit" },
     { name: "Products", path: "/product" },
-    // { name: "Our Team", path: "/team" },
+    { name: "Fabric", path: "/fabric" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -29,7 +29,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Radiance"
-              className="w-full h-16  object-cover  "
+              className="w-64 h-24  object-cover  "
             />
 
             {/* <div>

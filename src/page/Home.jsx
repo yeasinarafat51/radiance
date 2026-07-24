@@ -1,3 +1,5 @@
+import Fabric from "./allpage/Fabric";
+
 import Banner from "./Banner";
 import Corevalues from "./Corevalues";
 import Interbuyer from "./Interbuyer";
@@ -18,6 +20,8 @@ const Home = () => {
            <ProSer/>
            <Interbuyer/>
            <LocalBuyers/>
+           <Fabric/>
+          
         </div>
     );
 };

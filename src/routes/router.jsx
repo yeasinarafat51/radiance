@@ -7,8 +7,9 @@ import Services from "../page/allpage/Services";
 import Tannery from "../page/allpage/Tannery";
 import Manufacturing from "../page/allpage/Manufacturing";
 import Contact from "../page/allpage/Contact";
-import Team from "../page/allpage/Team";
+// import Team from "../page/allpage/Team";
 import Product from "../page/allpage/Product";
+import FabricCollection from "../page/allpage/FabricCollection";
 
 export const router = createBrowserRouter([
   {
@@ -47,8 +48,8 @@ export const router = createBrowserRouter([
       },
      
       {
-        path: "team",
-        Component: Team,
+        path: "fabric",
+        Component: FabricCollection,
       },
     ],
   },

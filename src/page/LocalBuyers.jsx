@@ -71,7 +71,7 @@ const LocalBuyers = () => {
         <div className="bg-white rounded-3xl shadow-xl p-10">
 
           <h3 className="text-3xl font-bold text-center mb-8">
-            Our Retail Network
+            Our Local Buyers
           </h3>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
