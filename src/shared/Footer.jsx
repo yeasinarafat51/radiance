@@ -54,7 +54,7 @@ const Footer = () => {
 
           <p>📍 145/4 Tannerymor, Hazaribagh Dhaka, Bangladesh</p>
           {/* <p className="mt-2">📞  +880 1811157441</p> */}
-          <p className="mt-2">✉  radianceleather@gmail.com</p>
+          <p className="mt-2">✉  radiance.fabric.leather@gmail.com</p>
 
           <div className="flex gap-4 mt-6">
             <a href="#" className="bg-gray-700 p-3 rounded-full hover:bg-amber-500 transition">

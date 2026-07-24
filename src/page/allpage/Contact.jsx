@@ -95,7 +95,7 @@ const Contact = () => {
                   </h4>
 
                   <p className="text-gray-300 mt-2">
-                    radianceleather@gmail.com
+                    radiance.fabric.leather@gmail.com
                   </p>
                 </div>
               </div>
