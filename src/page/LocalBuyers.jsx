@@ -8,12 +8,9 @@ import {
 const localBuyers = [
   "Le Reve",
   "Apex",
-  "Rajshahi Leather Gallery",
-  "Khulna Fashion Center",
-  "Sylhet Premium Store",
-  "Cumilla Leather Collection",
-  "Rangpur Lifestyle Hub",
-  "Barishal Leather Point",
+  "Lotto",
+  "Bata",
+  
 ];
 
 const LocalBuyers = () => {

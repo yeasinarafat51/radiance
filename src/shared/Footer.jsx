@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Company */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">
-            Leather<span className="text-amber-500">Craft</span>
+            Radiance <span className="text-amber-500">Leather</span>
           </h2>
           <p className="text-sm leading-7">
             We manufacture and export premium leather products worldwide.
@@ -53,7 +53,7 @@ const Footer = () => {
           </h3>
 
           <p>📍 145/4 Tannerymor, Hazaribagh Dhaka, Bangladesh</p>
-          <p className="mt-2">📞  +880 1811157441</p>
+          {/* <p className="mt-2">📞  +880 1811157441</p> */}
           <p className="mt-2">✉  radianceleather@gmail.com</p>
 
           <div className="flex gap-4 mt-6">
@@ -78,7 +78,7 @@ const Footer = () => {
       <div className="border-t border-gray-700">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center text-sm">
           <p>
-            © {new Date().getFullYear()} LeatherCraft. All Rights Reserved.
+            © {new Date().getFullYear()} Radiance Leather. All Rights Reserved.
           </p>
 
           <div className="flex gap-6 mt-3 md:mt-0">

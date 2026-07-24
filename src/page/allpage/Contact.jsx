@@ -1,6 +1,6 @@
 import {
   FaMapMarkerAlt,
-  FaPhoneAlt,
+//   FaPhoneAlt,
   FaEnvelope,
   FaGlobe,
   FaClock,
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-5">
+              {/* <div className="flex items-start gap-5">
                 <div className="bg-amber-600 p-4 rounded-full">
                   <FaPhoneAlt />
                 </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                     +880 1811157441
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-start gap-5">
                 <div className="bg-amber-600 p-4 rounded-full">

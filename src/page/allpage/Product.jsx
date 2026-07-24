@@ -12,8 +12,8 @@ import gloves from "../../imgas/handbagl.jpg";
 import jama from "../../imgas/jama8.jpg";
 import ladisbag from "../../imgas/ladiesbag.jpg";
 import lady1 from "../../imgas/handbag3.jpg";
-import jama4 from "../../imgas/jama7.jpg";
-import jama2 from "../../imgas/jama6.jpg";
+import jama4 from "../../imgas/sopa.jpg";
+import jama2 from "../../imgas/sopa2.jpg";
 
 const products = [
   {
@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Leather Coat",
+    name: "Leather Jaket",
     image: bag,
     category: "Outerwear",
   },
@@ -36,9 +36,9 @@ const products = [
   },
   {
     id: 4,
-    name: "Leather Shoes",
+    name: "Leather Wallet",
     image: shoes,
-    category: "Footwear",
+    category: "Accessories",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Leather Garments",
+    name: " Garments",
     image: jama,
     category: "Garments",
   },
@@ -66,21 +66,21 @@ const products = [
   },
   {
     id: 9,
-    name: "Premium Ladies Handbag",
+    name: "Premium  Handbag",
     image: lady1,
-    category: "Women's Collection",
+    category: "Men's Collection",
   },
   {
     id: 10,
-    name: "Leather Jacket",
+    name: "Leather Sofa",
     image: jama4,
-    category: "Outerwear",
+    category: "Accessories",
   },
   {
     id: 11,
-    name: "Leather Fashion Wear",
+    name: "Leather Sofa",
     image: jama2,
-    category: "Garments",
+    category: "Accessories",
   },
 ];
 
